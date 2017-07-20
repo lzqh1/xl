@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  width: 100%;
+  height: 3rem;
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem; }
+  header div:nth-child(1) {
+    color: white;
+    font-size: 1rem; }
+  header div:nth-child(2) {
+    flex-grow: 1; }
+
+.content {
+  width: 100%;
+  height: 6rem;
+  border: 1px solid #FFFFFF; }
+  .content .nav {
+    width: 92%;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .content .nav .left {
+      display: flex;
+      justify-content: space-between; }
+      .content .nav .left img {
+        width: 5rem;
+        height: 4rem; }
+    .content .nav .right span {
+      padding-right: 1rem; }
+  .content .nav2 {
+    width: 25rem;
+    margin: 1rem 2rem;
+    height: 30rem;
+    background: #535353;
+    color: white; }
+    .content .nav2 .bar {
+      width: 21rem;
+      margin: 0 auto; }
+      .content .nav2 .bar h1 {
+        padding-top: 2rem; }
+      .content .nav2 .bar .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem; }
+      .content .nav2 .bar .div1 {
+        position: relative; }
+        .content .nav2 .bar .div1 .logo {
+          display: flex; }
+          .content .nav2 .bar .div1 .logo p {
+            border: none; }
+            .content .nav2 .bar .div1 .logo p:nth-child(1) {
+              width: 8rem;
+              height: 3rem;
+              line-height: 3rem;
+              background: white;
+              color: black;
+              font-size: 2rem; }
+            .content .nav2 .bar .div1 .logo p:nth-child(2) {
+              width: 8rem;
+              height: 3rem;
+              line-height: 3rem;
+              background: white;
+              color: black;
+              font-size: 2rem;
+              padding-left: 3rem; }
+            .content .nav2 .bar .div1 .logo p:nth-child(3) {
+              width: 5rem;
+              height: 3rem;
+              line-height: 3rem;
+              position: relative;
+              background: white; }
+              .content .nav2 .bar .div1 .logo p:nth-child(3) img {
+                position: absolute;
+                left: 2rem;
+                top: 1rem; }
+        .content .nav2 .bar .div1 .ul {
+          width: 21rem;
+          height: 10rem;
+          z-index: 1;
+          position: absolute;
+          display: none; }
+          .content .nav2 .bar .div1 .ul li {
+            background: white;
+            width: 21rem;
+            height: 3rem;
+            border: none;
+            color: black; }
+            .content .nav2 .bar .div1 .ul li span {
+              border: none; }
+    .content .nav2 .bar2 {
+      width: 21rem;
+      margin: 0 auto; }
+      .content .nav2 .bar2 .nav2-bar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem; }
+      .content .nav2 .bar2 .div2 {
+        position: relative; }
+        .content .nav2 .bar2 .div2 .logo2 {
+          display: flex; }
+          .content .nav2 .bar2 .div2 .logo2 p {
+            border: none; }
+            .content .nav2 .bar2 .div2 .logo2 p:nth-child(1) {
+              width: 18rem;
+              height: 3rem;
+              line-height: 3rem;
+              background: white;
+              color: black;
+              font-size: 2rem; }
+            .content .nav2 .bar2 .div2 .logo2 p:nth-child(2) {
+              width: 5rem;
+              height: 3rem;
+              line-height: 3rem;
+              position: relative;
+              background: white; }
+              .content .nav2 .bar2 .div2 .logo2 p:nth-child(2) img {
+                position: absolute;
+                left: 2rem;
+                top: 1rem; }
+        .content .nav2 .bar2 .div2 .ul1 {
+          position: absolute;
+          display: none; }
+          .content .nav2 .bar2 .div2 .ul1 li {
+            background: white;
+            width: 21rem;
+            height: 2rem;
+            color: black; }
+    .content .nav2 .bar3 {
+      width: 21rem;
+      height: 3rem;
+      line-height: 3rem;
+      margin: 1rem auto;
+      text-align: center;
+      background: #0094EF;
+      font-size: 2rem; }
+    .content .nav2 .bar4 {
+      width: 21rem;
+      margin: 1rem auto; }
+
+/*# sourceMappingURL=index.css.map */
